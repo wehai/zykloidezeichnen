@@ -30,13 +30,13 @@ circle(mouseX,mouseY,7);
 
 function mouseIsPressed() {
  
-  if(mouseY > 500){ 
-  w= 100;
+  if(mouseY > height*5/6){ 
+  w= 230;
   saveCanvas("Zyklop"+day()+","+hour()+":"+minute()+"Uhr"+".jpg");
 }
 }
 
 function mouseReleased() {
   
-  w= 230;
+  w= 0;
 }
