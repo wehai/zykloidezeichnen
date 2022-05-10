@@ -1,7 +1,5 @@
 let w = 0;
-function preload() {
-  fontCirrusCumulus = loadFont('assets/CirrusCumulus.otf');
-}
+
 function setup(){
 createCanvas(windowWidth, windowHeight);
 background(0,90,128);
@@ -16,7 +14,7 @@ function draw(){
   
 fill(w);
 textSize(width/13);
-  textFont(CirrusCumulus)
+//  textFont(CirrusCumulus)
 text("A B S C H I C K E N", width*1/6,height*11.5/12);
 
   
