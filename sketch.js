@@ -14,7 +14,8 @@ function draw(){
   
 fill(w);
 textSize(width/13);
-//  textFont(CirrusCumulus)
+
+  
 text("A B S C H I C K E N", width*1/6,height*11.5/12);
 
   
