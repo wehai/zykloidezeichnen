@@ -1,7 +1,8 @@
 let w = 0;
+var drawCanvas;
 
 function setup(){
-createCanvas(windowWidth, windowHeight);
+drawCanvase = createCanvas(windowWidth, windowHeight);
 background(0,90,128);
 fill(250);
 rect(0,0,width,height*5/6);
