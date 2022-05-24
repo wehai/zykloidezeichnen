@@ -1,12 +1,18 @@
 let w = 0;
 var drawCanvas;
 
+function centerCanvas() {
+  var x = (windowWidth - width) / 2;
+  var y = (windowHeight - height) / 2;
+  drawCanvas.position(x, y);
+
 function windowResized() {
-createCanvas(windowWidth, windowHeight);
+centerCanvas;
 }
 
+
 function setup(){
-drawCanvase = createCanvas(windowWidth, windowHeight);
+drawCanvase = createCanvas(windowWidth/2, windowHeight/2);
 background(0,90,128);
 fill(250);
 rect(0,0,width,height*5/6);
