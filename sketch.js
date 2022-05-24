@@ -1,6 +1,10 @@
 let w = 0;
 var drawCanvas;
 
+function windowResized() {
+createCanvas(windowWidth, windowHeight);
+}
+
 function setup(){
 drawCanvase = createCanvas(windowWidth, windowHeight);
 background(0,90,128);
