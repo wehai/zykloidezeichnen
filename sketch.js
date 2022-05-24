@@ -12,7 +12,7 @@ centerCanvas;
 
 
 function setup(){
-drawCanvase = createCanvas(windowWidth/2, windowHeight/2);
+drawCanvas = createCanvas(windowWidth/2, windowHeight/2);
 background(0,90,128);
 fill(250);
 rect(0,0,width,height*5/6);
